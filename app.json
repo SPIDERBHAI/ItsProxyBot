@@ -1,0 +1,25 @@
+{
+  "name": "ItsProxyBot",
+  "description": "A Simple Telegram Bot to download music from YouTube using Youtube-dl",
+  "keywords": [
+    "ItsProxyBot",
+    "Proxy Bot",
+    "Telegram Proxy Bot",
+    "Pyrogram",
+    "ProxyGrab",
+    "Proxies Bot"
+  ],
+  "repository": "https://github.com/Skuzzers/ItsProxyBot",
+  "success_url": "https://t.me/Skuzzers",
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}

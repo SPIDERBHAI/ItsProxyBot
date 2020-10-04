@@ -1,6 +1,6 @@
 class Config:
     LOGGER = True
-    APP_ID = int(os.environ.get("APP_ID", none))
+    APP_ID = int(os.environ.get("APP_ID", None))
     API_HASH = os.environ.get("API_HASH", None)
     BOT_TOKEN = os.environ.get("BOT_TOKEN", None)
     COMMAND_HAND_LER = os.environ.get("COMMAND_HAND_LER", "/")

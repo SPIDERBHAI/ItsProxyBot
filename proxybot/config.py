@@ -2,7 +2,7 @@ class Config:
     LOGGER = True
     APP_ID = int(os.environ.get("APP_ID", None))
     API_HASH = os.environ.get("API_HASH", None)
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", None)
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "1219959468:AAFyqhZoj6IAdZU9bIyJg8aQT24ntxqDU54")
     COMMAND_HAND_LER = os.environ.get("COMMAND_HAND_LER", "/")
     TMP_DIR = os.environ.get("TMP_DIR", "./TEMP/")
     CONTACT_OWNER = os.environ.get("CONTACT_OWNER", None)
